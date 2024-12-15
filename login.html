@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>Attolang | Login </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <header class="header">
+        <nav>
+          <img class="Logo" src="img/Attolang Logo N.png" alt="Logo">
+          <ul class="navbar">
+            <li><a class="active" href="index.html">back</a></li>
+            <li><a class="active" href="#">About</a></li>
+            <li><a class="active" href="faq.html">FAQ</a></li>
+            <li><a class="active" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h2 class="login-h2">Login</h2>
+        <form action="process_login.php" method="POST">
+          <label for="username">Name:</label>
+          <input type="text" id="username" name="username" required><br>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required><br>
+
+          <input href="code.html" type="submit" value="Login">
+          <p class="plog">Don't Have any Account? <a class="alog" href="register.html"> Click Here!</a></p>
+        </form>
+      </main>
+    </div>
+    <div id="brc"></div>
+    <footer>
+      <a class="copyright-23"> &#169; Copyright 2023</a>
+      - Builded by &Sigma;M=0K Team
+    </footer>
+
+
+  </div>
+  <script src="javascript.js"></script>
+</body>
+
+</html>
